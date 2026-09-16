@@ -42,7 +42,7 @@ export class RegisterScreen extends BaseAcademy{
     }
 
     async fill():Promise<void>{
-         await this.Name.fill("Mostfa Farghly");
+         await this.Name.fill("Mostafa Farghly");
          await this.Email.fill("mostafa.mohamed9099@gmail.com");
          await this.Password.fill("Aa@12345");
          await this.Checkbox.check();
